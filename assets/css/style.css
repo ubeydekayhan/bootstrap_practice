@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+li:hover, a:hover{
+   background-color: rgb(12, 215, 144);
+   color: aliceblue !important;
+   text-align: center;
+}
+div{
+margin-top: 0;
+}

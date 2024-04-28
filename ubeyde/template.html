@@ -5,23 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template</title>
     <link rel="stylesheet" href="../assets/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <header>
-        <div class="m-5 d-flex   ">
-            <h1>Known</h1>
-        
-        
-         
-            <ol class="d-flex gap-4 text-decoration-none list-unstyled  p-3    ">
+ <nav class="navbar navbar-expand-lg navbar-light">
+   
+    <div class="col-12 d-flex m-3" style="border-top: 5px solid rgb(12, 215, 144)">
+            <h4 class="text-center ">Known</h4>
+            <button class="btn btn-light  d-md-none mx-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="offcanvas offcanvas-top  " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <ol class=" d-md-flex m-1 px-2 gap-4 text-nowrap list-unstyled ">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Our Teachers</a></li>
+                <li><a href="">Courses</a></li>
+                <li><a href="">Reviews</a></li>
+                <li><a href="">Contact</a></li>
+                <li>
+                    <div class="col-12 d-flex px-5   ">
+                        <i class="fa fa-phone-square p-1 fs-4 text-success    " aria-hidden="true"></i>
+                        <p>+65 2244 1100</p>
+                    </div>
+                </li>
+                
+            </ol>
+            </div>
+            <ol class="d-none d-md-flex m-1 px-2 gap-4 text-nowrap list-unstyled ">
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Our Teachers</a></li>
             <li><a href="">Courses</a></li>
             <li><a href="">Reviews</a></li>
             <li><a href="">Contact</a></li>
+            <li>
+                <div class="col-12 d-flex px-5   ">
+                    <i class="fa fa-phone-square p-1 fs-4 text-success    " aria-hidden="true"></i>
+                    <p>+65 2244 1100</p>
+                </div>
+            </li>
+            
         </ol>
         </div>
+ </nav>
+        
         
     </header>
 
